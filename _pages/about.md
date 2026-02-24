@@ -8,10 +8,6 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true
-#  more_info: >
-#    <p>555 your office number</p>
-#    <p>123 your address street</p>
-#    <p>Your City, State 12345</p>
 
 selected_papers: false
 social: true
@@ -20,6 +16,7 @@ announcements:
   enabled: true
   scrollable: true
   limit: 5
+---
 
 Hi! I'm Jacob, and I'm excited that I get to spend every day learning.
 I'm a PhD candidate in Chemical Engineering and Computational Science in the Kulik Group at the Massachussetts Institute of Technology. My research is focused on combining machine learning with quantum chemistry for the modeling and discovery of novel, functional transition metal catalysts, with an emphasis in sustainable catalysis. I'm experienced in developing deep learning models for 2D, 3D, and electronic structure property prediction, and proficient in electronic structure theory with expertise in challenging, open-shell, organometallic systems.
