@@ -27,9 +27,9 @@ back_to_top: true # set to false to disable the back to top button
 social:
   email: jwt@mit.edu
   orcid: 0000-0002-6920-1105
-  scholar: 1oeDzDIAAAAJ&hl
+  scholar: "1oeDzDIAAAAJ"
   github: jwtoney
-  linkedin: linkedin.com/in/jacob-w-toney/
+  linkedin: jacob-w-toney
 
 appearance:
   mode: auto
