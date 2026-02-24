@@ -7,28 +7,25 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image_circular: true
+#  more_info: >
+#    <p>555 your office number</p>
+#    <p>123 your address street</p>
+#    <p>Your City, State 12345</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
----
+  scrollable: true
+  limit: 5
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I'm Jacob, and I'm excited that I get to spend every day learning.
+I'm a PhD candidate in Chemical Engineering and Computational Science in the Kulik Group at the Massachussetts Institute of Technology. My research is focused on combining machine learning with quantum chemistry for the modeling and discovery of novel, functional transition metal catalysts, with an emphasis in sustainable catalysis. I'm experienced in developing deep learning models for 2D, 3D, and electronic structure property prediction, and proficient in electronic structure theory with expertise in challenging, open-shell, organometallic systems.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I completed my B.S. and M.S. degrees in Chemical Engineering at the University of Southern California, where I conducted undergraduate research in computational catalysis under the mentorship of Professor Shaama Sharada. During my time at USC, I served as a summer R&D intern with ExxonMobil where I developed computational tools to automate the modeling and design of heat-exchanger equipment. Prior to joining MIT, I spent a gap year working full-time as an Operations Engineer at SpaceX optimizing spacecraft production.
+
+Outside of research, I enjoy concerts, playing music, movies, baseball, and Formula 1.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
