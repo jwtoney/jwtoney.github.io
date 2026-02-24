@@ -2,7 +2,7 @@ cv_pdf: /assets/pdf/cv_jwt.pdf # path to your CV PDF file
 email: jwt@mit.com
 # rss_icon: true
 scholar_userid: "1oeDzDIAAAAJ"
-custom_social:
-  # logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png
-  # title: Custom Social
-  # url: https://www.alberteinstein.com/
+# custom_social:
+#   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png
+#   title: Custom Social
+#   url: https://www.alberteinstein.com/
