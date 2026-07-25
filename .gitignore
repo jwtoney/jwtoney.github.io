@@ -10,6 +10,9 @@ _site
 .venv
 assets/libs/
 assets/rendercv/rendercv_output/*.typ
+# Source TOC artwork (large TIFF/PDF originals); web-ready PNGs live in
+# assets/img/publication_preview/
+images/
 Gemfile.lock
 node_modules/
 vendor

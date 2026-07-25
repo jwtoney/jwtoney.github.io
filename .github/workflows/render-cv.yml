@@ -1,15 +1,8 @@
 name: Render a CV
+# Disabled: the CV PDF served at /assets/pdf/cv_jwt.pdf is maintained by hand, so this
+# workflow no longer runs automatically. Trigger it manually from the Actions tab if you
+# ever want RenderCV to generate a PDF from _data/cv.yml.
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
-  workflow_call:
   workflow_dispatch:
 permissions:
   contents: write

@@ -1,8 +1,6 @@
 cv_pdf: /assets/pdf/cv_jwt.pdf # path to your CV PDF file
-email: jwt@mit.com
-# rss_icon: true
+email: jwt@mit.edu
+orcid_id: 0000-0002-6920-1105
 scholar_userid: "1oeDzDIAAAAJ"
-# custom_social:
-#   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png
-#   title: Custom Social
-#   url: https://www.alberteinstein.com/
+github_username: jwtoney
+linkedin_username: jacob-w-toney

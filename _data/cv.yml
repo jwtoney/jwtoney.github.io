@@ -1,189 +1,190 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Jacob W. Toney
+  label: PhD Candidate, Chemical Engineering & Computational Science, MIT
+  email: jwt@mit.edu
+  summary: >
+    I develop machine learning methods for quantum chemistry, with a focus on the systems
+    conventional models handle worst: open-shell, organometallic, and strongly correlated
+    chemistry. My work spans graph neural networks for metal–ligand coordination, large
+    quantum-chemical datasets across charge and spin states, uncertainty-aware architectures
+    covering elements 1–100, and correlated wavefunction theory on classical and quantum
+    hardware.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: jacob-w-toney
+    - network: Google Scholar
+      username: "1oeDzDIAAAAJ"
+      display_name: Jacob W. Toney
+    - network: GitHub
+      username: jwtoney
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Massachusetts Institute of Technology
+        location: Cambridge, MA
+        url: https://cheme.mit.edu/
+        studyType: PhD, Chemical Engineering and Computational Science
+        area: "Minor in Quantum Chemistry · Advisor: Prof. Heather J. Kulik"
+        start_date: 2022
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Thesis: *Accelerating Quantum Chemistry with Machine Learning for the Rational Design of Transition Metal Complexes*"
+          - "Coursework: computational chemistry, advanced electronic structure theory, machine learning algorithms, ML for chemistry, matrix calculus for ML, diffusion models, generative AI and stochastic differential equations, numerical methods, Bayesian modeling and inference"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: University of Southern California
+        location: Los Angeles, CA
+        studyType: MS, Chemical Engineering
+        area: "Research advisor: Prof. Shaama M. Sharada"
+        start_date: 2019
+        end_date: 2021
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Thesis: *Investigating the Mechanisms of C–H Activation with Enzyme-Inspired Molecular Catalysts* (Awarded Best Research Paper)"
+
+      - institution: University of Southern California
+        location: Los Angeles, CA
+        studyType: BS, Chemical Engineering
+        area: "Minor in Materials Science · GPA 4.00"
+        start_date: 2017
+        end_date: 2021
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: IBM Research
+        position: Algorithms and Applications Intern
+        location: Yorktown Heights, NY
+        start_date: 2026-06
+        end_date: 2026-08
         highlights:
-          - Relativity
-          - Description 2.
+          - Correlated wavefunction calculations and quantum computing for large molecular systems.
+          - Generative models for proteins.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Aspen Technology
+        position: Software Engineering Intern (MIT Practice School)
+        location: Bedford, MA
+        start_date: 2023-07
+        end_date: 2023-08
+
+      - company: Woodside Energy
+        position: Engineering & Data Science Intern (MIT Practice School)
+        location: Perth, WA, Australia
+        start_date: 2023-06
+        end_date: 2023-07
+
+      - company: SpaceX
+        position: Operations Engineer
+        location: Hawthorne, CA
+        start_date: 2021-06
+        end_date: 2022-08
+        summary: Full-time
         highlights:
-          - Description 1.
-          - Description 2.
+          - Optimized spacecraft production operations through forecasting models, saving hundreds of thousands of labor hours annually.
+          - Presented weekly to C-level executives.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: ExxonMobil Research & Technology Development
+        position: Process Engineering R&D Intern
+        location: Houston, TX
+        start_date: 2020-06
+        end_date: 2020-08
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Developed computational tools to automate the modeling and design of heat-exchanger equipment.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: California Resources Corporation
+        position: "Facilities Engineering Intern: Gas Plants"
+        location: Bakersfield, CA
+        start_date: 2019-05
+        end_date: 2019-08
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - bullet: "A full, up-to-date list — with abstracts, DOIs, and code — is on the [publications page](/publications/)."
+      - bullet: "Also indexed on [Google Scholar](https://scholar.google.com/citations?user=1oeDzDIAAAAJ) and [ORCID](https://orcid.org/0000-0002-6920-1105)."
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+    Honors and Awards:
+      - title: Entalpic AI for Science Fellowship
+        awarder: Entalpic
+        date: 2026-04
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - title: Leslye Miller Fraser and Darryl M. Fraser Fellow
+        awarder: MIT School of Engineering
+        date: 2025-05
+
+      - title: MathWorks Engineering Fellow
+        awarder: MIT Department of Chemical Engineering
+        date: 2024-06
+
+      - title: Alfred P. Sloan UCEM Fellowship
+        awarder: MIT School of Engineering
+        date: 2022-09
+
+      - title: Albert Dorman Valedictorian
+        awarder: USC Viterbi School of Engineering
+        date: 2021-05
+
+      - title: National Academy of Engineering Grand Challenges Scholar
+        awarder: USC Viterbi School of Engineering
+        date: 2021-05
+
+      - title: University Trustees Award
+        awarder: USC — awarded for perfect GPA
+        date: 2021-05
+
+      - title: "Best Research Paper — *Bioinspired Catalysis of C–H Hydroxylation: A Computational Approach*"
+        awarder: USC Viterbi School of Engineering
+        date: 2021-05
+
+      - title: "Best Analytical & Expository Essay — *Engineering Ethics: Grand Challenges and Grander Responsibilities*"
+        awarder: USC Viterbi School of Engineering
+        date: 2021-05
+
+      - title: Outstanding Chemical Engineering Student Award
+        awarder: USC Department of Chemical Engineering and Materials Science
+        date: 2021-05
+
+      - title: "Best Research Presentation — *Investigating the Mechanisms of C–H Activation with Enzyme-Inspired Molecular Catalysts*"
+        awarder: USC Department of Chemical Engineering and Materials Science
+        date: 2021-02
+
+      - title: Provost's Undergraduate Research Fellowship
+        awarder: USC (January 2019 – December 2020)
+        date: 2019-01
+
+      - title: Presidential Scholar
+        awarder: USC
+        date: 2017-08
+
+      - title: Latino Alumni Association Scholar
+        awarder: USC
+        date: 2017-08
+
+    Presentations:
+      - bullet: "**International Conference on Quantum Chemistry**, Berkeley, CA — *Machine Learning Prediction of Structural and Electronic Properties of Transition Metal Complexes*, poster. June 2026."
+      - bullet: "**Entalpic LeMaterial Reading Group**, virtual — *Exploring Structure, Properties, and Reactivity in Transition Metal Complexes with Deep Learning and Quantum Chemistry*, invited talk. February 2026."
+      - bullet: "**AIChE Annual Meeting**, Boston, MA — *Graph neural networks for predicting metal–ligand coordination in transition metal complexes*, talk in *Data Science and ML Approaches to Catalysis: Catalyst Design and Discovery*. November 2025."
+      - bullet: "**WATOC**, Oslo, Norway — *Graph neural networks for predicting metal–ligand coordination in transition metal complexes*, talk in *Chemical Structure and Reactivity: Analysis*. June 2025."
+      - bullet: "**CECAM Frontiers of Computational Reaction Prediction**, Chicago, IL — *Graph neural networks for predicting metal–ligand coordination in transition metal complexes*, poster. July 2024."
+      - bullet: "**USC ChE & Materials Science Research Symposium**, Los Angeles, CA (virtual) — *Investigating the Mechanisms of C–H Activation with Enzyme-Inspired Molecular Catalysts*, recorded talk. February 2021. **Awarded Best Research Presentation.**"
+      - bullet: "**AIChE Annual Student Conference**, San Francisco, CA (virtual) — *Computational Analysis of C–H Hydroxylation in Bio-inspired Monometallic Complexes*, poster. November 2020."
+      - bullet: "**USC ChE & Materials Science Research Symposium**, Los Angeles, CA — *Computational Analysis of C–H Hydroxylation in Bio-inspired Monometallic Complexes*, poster. March 2020."
+      - bullet: "**AIChE Annual Student Conference**, Orlando, FL — *Computational Analysis of C–H Hydroxylation in Bio-inspired Monometallic Complexes*, poster. November 2019."
+
+    Teaching:
+      - bullet: "**5.698/10.637: Computational Chemistry** (MIT) — Grader, graduate elective in chemical engineering and chemistry. Sep–Dec 2025."
+      - bullet: "**10.34: Numerical Methods Applied to Chemical Engineering** (MIT) — Graduate Teaching Fellow, graduate core course. Sep–Dec 2024. Instructor rating 6.5/7."
+      - bullet: "**10.65: Chemical Reactor Engineering** (MIT) — Grader, graduate core course. Feb–May 2024."
+      - bullet: "**10.40: Chemical Engineering Thermodynamics** (MIT) — Grader, graduate core course. Sep–Dec 2023."
+
+    Mentorship and Service:
+      - bullet: "**David Sauer** (Chemistry, Harvard University) — reparameterization of electronic structure methods for transition metal complexes."
+      - bullet: "**Zheming Zhang** (Chemical Engineering, MIT) — benchmarking deep learning architectures for electronic property prediction in variable charge and spin states."
+      - bullet: "**Lauren Wright** (Chemical Engineering, Louisiana State University) — designing new hydroformylation catalysts through mechanistic study and data science. Presented at the AIChE Annual Student Conference 2025; **Awarded Third Place Poster.**"
+      - bullet: "**Sebastian Pujet** (Chemical Engineering and Computer Science, Washington University in St. Louis) — active learning to optimize mechanochemical properties of transition metal complexes. Contributed to *molSimplify 2.0*, J. Chem. Inf. Model. 2026."
+      - bullet: "**President**, USC AIChE Student Chapter. April 2020 – May 2021."
+      - bullet: "**President**, USC Latino Alumni Association Scholar Committee. January 2019 – May 2021."
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Machine learning
+        keywords: "graph neural networks, graph theory, E(3)-equivariant models, transformers, generative models, uncertainty quantification, active learning, LLM fine-tuning"
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Quantum chemistry
+        keywords: "density functional theory (DFT), correlated wavefunction theory (e.g., coupled cluster, configuration interaction), open-shell systems, transition state search"
 
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Software
+        keywords: "Python, PyTorch, high-throughput screening workflows, HPC"

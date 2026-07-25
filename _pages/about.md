@@ -8,19 +8,28 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true
+  more_info: >
+    <p>Kulik Group</p>
+    <p>MIT Chemical Engineering</p>
+    <p>Cambridge, MA</p>
 
-selected_papers: false
+selected_papers: true
 social: true
 
 announcements:
-  enabled: false
+  enabled: true
   scrollable: true
   limit: 5
 ---
 
-Hi! I'm Jacob, and I'm excited that I get to spend every day learning.
-I'm a PhD candidate in Chemical Engineering and Computational Science in the Kulik Group at the Massachussetts Institute of Technology. My research is focused on combining machine learning with quantum chemistry for the modeling and discovery of novel, functional transition metal catalysts, with an emphasis in sustainable catalysis. I'm experienced in developing deep learning models for 2D, 3D, and electronic structure property prediction, and proficient in electronic structure theory with expertise in challenging, open-shell, organometallic systems.
+I'm a PhD candidate in Chemical Engineering and Computational Science in the [Kulik Group](https://hjkgrp.mit.edu/) at MIT, where I build machine learning methods for quantum chemistry. My work targets the chemistry that most models handle worst — open-shell, organometallic, and strongly correlated systems — rather than the small organic molecules that dominate existing benchmarks.
 
-I completed my B.S. and M.S. degrees in Chemical Engineering at the University of Southern California, where I conducted undergraduate research in computational catalysis under the mentorship of Professor Shaama Sharada. During my time at USC, I served as a summer R&D intern with ExxonMobil where I developed computational tools to automate the modeling and design of heat-exchanger equipment. Prior to joining MIT, I spent a gap year working full-time as an Operations Engineer at SpaceX optimizing spacecraft production.
+Concretely, that has meant graph neural networks that predict how ligands actually coordinate a metal, including dynamic and hemilabile binding modes; large quantum-chemical datasets spanning charge and spin states that give these models something reliable to learn from; and architectures with built-in uncertainty quantification that stay trustworthy across elements 1–100. I'm equally at home in electronic structure theory and in deep learning, and most of what I build is released as open-source software.
 
-Outside of research, I enjoy concerts, playing music, movies, baseball, and Formula 1.
+I'm spending summer 2026 at **IBM Research**, working on correlated wavefunction theory and quantum computing for chemistry, alongside generative models for proteins.
+
+Before MIT, I completed my B.S. and M.S. in Chemical Engineering at the University of Southern California, doing computational catalysis research with Professor Shaama Sharada, and spent a year as an Operations Engineer at SpaceX optimizing spacecraft production.
+
+**I'm open to work.** If you're working on machine learning, computational chemistry, or scientific software, I'd be glad to talk — [jwt@mit.edu](mailto:jwt@mit.edu).
+
+Outside of research, I enjoy concerts, playing music, writing, old movies, dinosaurs, baseball, and Formula 1.

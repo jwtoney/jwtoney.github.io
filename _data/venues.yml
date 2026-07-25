@@ -1,9 +1,39 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Venue badges shown next to each publication. `abbr` in papers.bib must match a key here.
+"J. Am. Chem. Soc.":
+  url: https://pubs.acs.org/journal/jacsat
+  color: "#8b1a1a"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Proc. Natl. Acad. Sci.":
+  url: https://www.pnas.org/
+  color: "#1f3a68"
 
-"Vision":
-  color: "#009f36"
+"Nat. Comput. Sci.":
+  url: https://www.nature.com/natcomputsci
+  color: "#0b6e6e"
+
+"J. Chem. Inf. Model.":
+  url: https://pubs.acs.org/journal/jcisd8
+  color: "#2b5f8e"
+
+"Faraday Discuss.":
+  url: https://pubs.rsc.org/en/journals/journalissues/fd
+  color: "#6a3d9a"
+
+"Catal. Sci. Technol.":
+  url: https://pubs.rsc.org/en/journals/journalissues/cy
+  color: "#3f7a52"
+
+"Curr. Opin. Chem. Eng.":
+  url: https://www.sciencedirect.com/journal/current-opinion-in-chemical-engineering
+  color: "#a35d1e"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#8f2b2b"
+
+"ChemRxiv":
+  url: https://chemrxiv.org/
+  color: "#31708e"
+
+"In prep.":
+  color: "#6c757d"
