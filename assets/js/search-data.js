@@ -18,14 +18,14 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "publications",
-          description: "Reverse chronological. * denotes equal contribution. Also on Google Scholar and ORCID.",
+          description: "Reverse chronological. An asterisk (*) denotes equal contribution.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "Download the PDF with the icon on the right.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -51,21 +51,35 @@ ninja.data = [{
           section: "News",},{id: "news-elemenet-is-on-arxiv-a-unified-package-for-molecular-ml-across-elements-1-100-with-built-in-uncertainty-quantification",
           title: 'ElemeNet is on arXiv — a unified package for molecular ML across elements...',
           description: "",
+          section: "News",},{id: "news-our-work-on-robust-generative-transition-state-models-for-unseen-chemistry-is-published-in-nature-computational-science",
+          title: 'Our work on robust generative transition state models for unseen chemistry is published...',
+          description: "",
+          section: "News",},{id: "news-bos-tmc-is-published-in-j-chem-inf-model-dft-properties-for-159k-experimentally-characterized-transition-metal-complexes-across-charge-and-spin-states",
+          title: 'BOS-TMC is published in J. Chem. Inf. Model. — DFT properties for 159k...',
+          description: "",
+          section: "News",},{id: "news-new-preprint-on-arxiv-physics-based-molecular-fingerprints-from-spectral-graph-theory-giving-efficient-geometry-aware-measures-of-chemical-similarity",
+          title: 'New preprint on arXiv: physics-based molecular fingerprints from spectral graph theory, giving efficient...',
+          description: "",
           section: "News",},{id: "projects-metal-ligand-coordination",
           title: 'metal–ligand coordination',
-          description: "graph neural networks that predict how a ligand actually binds a metal, and the structure-generation tools that use them",
+          description: "graph neural networks predicting organometallic bonding, integrated with high-throughput structure generation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_coordination/";
             },},{id: "projects-datasets-for-open-shell-chemistry",
           title: 'datasets for open-shell chemistry',
-          description: "high-fidelity quantum chemistry data across charge and spin states, where machine learning for organometallics has been starved",
+          description: "the largest, most diverse dataset of quantum chemical properties on experimentally-synthesized transition metal complexes",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_datasets/";
             },},{id: "projects-models-across-the-periodic-table",
           title: 'models across the periodic table',
-          description: "deep learning architectures, generative models, and uncertainty quantification built to survive elements past the second row",
+          description: "property prediction, generative models, SOTA architectures, and uncertainty quantification built to handle the entire periodic table",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_models/";
+            },},{id: "projects-fingerprints-from-spectral-graph-theory",
+          title: 'fingerprints from spectral graph theory',
+          description: "physics-based molecular representations that encode 3D structure with symmetry enforced by construction, at a fraction of the cost of learned models",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_fingerprints/";
             },},{
         id: 'social-cv',
         title: 'CV',
@@ -81,25 +95,11 @@ ninja.data = [{
           window.open("mailto:%6A%77%74@%6D%69%74.%65%64%75", "_blank");
         },
       },{
-        id: 'social-orcid',
-        title: 'ORCID',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://orcid.org/0000-0002-6920-1105", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=1oeDzDIAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/jwtoney", "_blank");
         },
       },{
         id: 'social-linkedin',
