@@ -1,34 +1,32 @@
 ---
 layout: page
 title: datasets for open-shell chemistry
-description: high-fidelity quantum chemistry data across charge and spin states, where machine learning for organometallics has been starved
+description: the largest, most diverse dataset of quantum chemical properties on experimentally-synthesized transition metal complexes
 img: assets/img/publication_preview/bostmc-dataset.png
 importance: 2
 category: research
 related_publications: true
+zenodo: https://zenodo.org/records/21383037
 ---
 
-Machine learning for chemistry has been carried by a handful of large, clean datasets — and
-nearly all of them cover closed-shell organic molecules. Transition metal complexes get a
-fraction of the coverage despite being where catalysis, photophysics, and magnetism actually
-happen. The reasons are structural: charge and spin states have to be assigned before a
-calculation can even be set up, many electronic structure methods are unreliable for
-open-shell metals, and experimental reference data is scarce for exactly the complexes that
-are catalytically interesting {% cite toney2025curropin %}.
+Machine learning for chemistry has primarily relied on large datasets of closed-shell,
+neutral, organic molecules. Despite their numerous applications, transition metal complexes
+(TMCs) have received a fraction of the coverage of organics, in part due to their complex
+electronic structure and limited experimental data {% cite toney2025curropin %}. Early work
+applied natural language processing on existing TMC datasets to curate subsets of chemical
+space labeled with their applications in catalysis, photochemistry, medicine, and magnetism
+{% cite kevlishvili2025faraday %}.
 
-The **BOS-TMC dataset** is my attempt to close that gap {% cite garrison2026bostmc %}. It
-reports DFT properties for 159k experimentally characterized mononuclear TMCs from the
-Cambridge Structural Database, computed in up to three spin states across a range of formal
-charges — 343.8k TMC/spin combinations and over 2.9M properties in total. Two choices
-matter. First, overall complex charge is assigned by an iterative procedure rather than
-guessed, which is what makes multi-charge coverage trustworthy. Second, experimental
-heavy-atom coordinates are preserved during optimization, so the structures stay tied to
-what was actually crystallized. For a 10k-complex subset we swept twelve exchange–correlation
-functionals spanning rungs of Jacob's ladder, which maps out where in TMC space DFT itself is
-least certain — useful both as a benchmark and as a warning label.
+Chemical relevance is valuable, but our early work utilized noisy datasets of closed-shell
+chemistry. We recently introduced the BOS-TMC dataset of DFT properties for 159k
+experimentally characterized TMCs, computed in up to three spin states
+{% cite garrison2026bostmc %}. With nearly 344k TMC/spin combinations and over 2.9M
+properties in total, BOS-TMC is the largest and most diverse dataset of quantum chemical
+properties calculated on experimental TMCs.
 
-Coverage is only half the problem; relevance is the other half. Using supervised and
-unsupervised NLP over the literature, we linked experimentally synthesized complexes to their
-reported applications, yielding the tmCAT (catalysis), tmPHOTO (photophysics), tmBIO
-(biological), and tmSCO (magnetism) datasets {% cite kevlishvili2025faraday %}. Screening
-against an application-specific subset beats screening against everything.
+For a subset of over 10k structures, we calculate properties with twelve exchange-correlation
+functionals spanning Jacob's ladder, mapping functional sensitivity across properties and
+chemical motifs. I look forward to seeing the community leverage BOS-TMC for advances in
+density functional development, machine learning, and the guided exploration of chemical
+space. Most importantly, the work is open-access and the dataset freely accessible on
+[Zenodo](https://zenodo.org/records/21383037).

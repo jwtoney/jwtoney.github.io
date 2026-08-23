@@ -3,12 +3,12 @@ cv:
   label: PhD Candidate, Chemical Engineering & Computational Science, MIT
   email: jwt@mit.edu
   summary: >
-    I develop machine learning methods for quantum chemistry, with a focus on the systems
-    conventional models handle worst: open-shell, organometallic, and strongly correlated
-    chemistry. My work spans graph neural networks for metal–ligand coordination, large
-    quantum-chemical datasets across charge and spin states, uncertainty-aware architectures
-    covering elements 1–100, and correlated wavefunction theory on classical and quantum
-    hardware.
+    PhD candidate in Chemical Engineering and Computational Science at MIT working at the
+    intersection of machine learning and quantum chemistry. Developing geometric deep learning
+    models and large quantum chemical datasets to predict the structural, electronic, and
+    chemical properties of transition metal complexes. Additional technical experience in
+    quantum computing algorithms for chemistry (IBM Research) and large-scale operations
+    engineering (SpaceX).
 
   social_networks:
     - network: LinkedIn
@@ -16,8 +16,6 @@ cv:
     - network: Google Scholar
       username: "1oeDzDIAAAAJ"
       display_name: Jacob W. Toney
-    - network: GitHub
-      username: jwtoney
 
   sections:
     Education:
@@ -27,6 +25,7 @@ cv:
         studyType: PhD, Chemical Engineering and Computational Science
         area: "Minor in Quantum Chemistry · Advisor: Prof. Heather J. Kulik"
         start_date: 2022
+        end_date: 2027
         highlights:
           - "Thesis: *Accelerating Quantum Chemistry with Machine Learning for the Rational Design of Transition Metal Complexes*"
           - "Coursework: computational chemistry, advanced electronic structure theory, machine learning algorithms, ML for chemistry, matrix calculus for ML, diffusion models, generative AI and stochastic differential equations, numerical methods, Bayesian modeling and inference"
@@ -48,26 +47,26 @@ cv:
         end_date: 2021
 
     Experience:
+      - company: Kulik Group, MIT Department of Chemical Engineering
+        position: Graduate Research Assistant
+        location: Cambridge, MA
+        start_date: 2023-01
+        highlights:
+          - Developed graph neural networks to predict organometallic bonding in transition metal complexes from ligand structure (*PNAS*), and extended the approach to dynamic coordination modes using ensemble learning (*JACS*).
+          - Co-led construction of BOS-TMC, the largest DFT dataset of experimentally characterized transition metal complexes in multiple charge and spin states (*JCIM*).
+          - Supported development and benchmarking of state-of-the-art generative transition state models (*Nat. Comput. Sci.*).
+          - Built ElemeNet, a unified machine learning framework for chemistry supporting E(3)-equivariant architectures with uncertainty quantification across the periodic table.
+          - Designed novel physics-based molecular fingerprints from spectral graph theory to encode 3D information while preserving permutation and E(3) invariance.
+          - Maintain the group HPC cluster and contribute to the open-source molSimplify structure generation package.
+
       - company: IBM Research
         position: Algorithms and Applications Intern
         location: Yorktown Heights, NY
         start_date: 2026-06
         end_date: 2026-08
         highlights:
-          - Correlated wavefunction calculations and quantum computing for large molecular systems.
-          - Generative models for proteins.
-
-      - company: Aspen Technology
-        position: Software Engineering Intern (MIT Practice School)
-        location: Bedford, MA
-        start_date: 2023-07
-        end_date: 2023-08
-
-      - company: Woodside Energy
-        position: Engineering & Data Science Intern (MIT Practice School)
-        location: Perth, WA, Australia
-        start_date: 2023-06
-        end_date: 2023-07
+          - Developed wavefunction embedding schemes for simulating large molecular systems on quantum computers.
+          - Investigated fine-tuning generative models for protein structure prediction.
 
       - company: SpaceX
         position: Operations Engineer
@@ -76,8 +75,7 @@ cv:
         end_date: 2022-08
         summary: Full-time
         highlights:
-          - Optimized spacecraft production operations through forecasting models, saving hundreds of thousands of labor hours annually.
-          - Presented weekly to C-level executives.
+          - Led cross-functional cost-reduction campaigns to optimize Falcon 9 production.
 
       - company: ExxonMobil Research & Technology Development
         position: Process Engineering R&D Intern
@@ -85,13 +83,16 @@ cv:
         start_date: 2020-06
         end_date: 2020-08
         highlights:
-          - Developed computational tools to automate the modeling and design of heat-exchanger equipment.
+          - Developed computational tool for automated heat-exchanger design, reducing engineering labor hours by 10%.
 
-      - company: California Resources Corporation
-        position: "Facilities Engineering Intern: Gas Plants"
-        location: Bakersfield, CA
-        start_date: 2019-05
-        end_date: 2019-08
+      - company: Sharada Group, USC Department of Chemical Engineering and Materials Science
+        position: Undergraduate Researcher
+        location: Los Angeles, CA
+        start_date: 2019-01
+        end_date: 2021-05
+        highlights:
+          - Performed DFT mechanistic studies of C–H hydroxylation by enzyme-inspired copper–oxygen complexes.
+          - Published in *Catal. Sci. Technol.* and recognized with departmental awards for best research paper and presentation.
 
     Publications:
       - bullet: "A full, up-to-date list — with abstracts, DOIs, and code — is on the [publications page](/publications/)."
@@ -181,10 +182,10 @@ cv:
 
     Skills:
       - name: Machine learning
-        keywords: "graph neural networks, graph theory, E(3)-equivariant models, transformers, generative models, uncertainty quantification, active learning, LLM fine-tuning"
+        keywords: "geometric deep learning (GNNs, E3NN), generative models (diffusion, flow-based), uncertainty quantification, active learning, Bayesian modeling and inference"
 
       - name: Quantum chemistry
-        keywords: "density functional theory (DFT), correlated wavefunction theory (e.g., coupled cluster, configuration interaction), open-shell systems, transition state search"
+        keywords: "density functional theory (TeraChem, ORCA, Psi4, PySCF), post-Hartree–Fock methods, transition-state search, quantum computing and quantum algorithms"
 
-      - name: Software
-        keywords: "Python, PyTorch, high-throughput screening workflows, HPC"
+      - name: Scientific computing
+        keywords: "Python, PyTorch, PyTorch Geometric, HPC cluster administration, multi-GPU training"

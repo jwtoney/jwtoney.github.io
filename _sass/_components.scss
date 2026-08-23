@@ -259,3 +259,22 @@ ul.task-list input[type="checkbox"] {
 .d2h-diff-table {
   position: relative;
 }
+
+// External resource links on project cards (code repository, dataset).
+.projects {
+  .project-links {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .project-link a {
+    color: var(--global-text-color);
+    font-size: 1.4rem;
+    line-height: 1;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+}

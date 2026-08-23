@@ -2,15 +2,24 @@
 ---
 
 @article{toney2026fingerprints,
-  abbr    = {In prep.},
-  preview = {spectral-fingerprints.png},
-  title   = {Physics-Based Molecular Fingerprints from Spectral Graph Theory},
-  author  = {Toney, Jacob W. and Farnood, Ayleen and Darouich, Samir and Kulik, Heather J.},
-  journal = {In preparation},
-  year    = {2026},
+  citelabel   = {arXiv 2026},
+  preview     = {spectral-fingerprints.png},
+  abbr        = {arXiv},
+  bibtex_show = {true},
+  selected    = {true},
+  title       = {Physics-Based Molecular Fingerprints from Spectral Graph Theory Provide Efficient Geometry-Aware Measures of Chemical Similarity},
+  author      = {Toney, Jacob W. and Farnood, Ayleen Y. and Darouich, Samir and Kulik, Heather J.},
+  journal     = {arXiv},
+  year        = {2026},
+  publisher   = {arXiv},
+  arxiv       = {2608.05336},
+  doi         = {10.48550/arXiv.2608.05336},
+  url         = {https://doi.org/10.48550/arXiv.2608.05336},
+  abstract    = {Molecular representations are essential for the evaluation of molecular similarity and the development of structure-property relationships. Despite the known importance of 3D structure to determine chemical and physical properties, the most widely used molecular fingerprints encode only two-dimensional connectivity. Such representations fail to distinguish similar but distinct stereoisomers and conformers. Alternative 3D methods are typically defined pairwise, making their application to large chemical spaces prohibitive, while deep learning embeddings are expressive but uninterpretable and limited by their training data diversity. Here, we introduce novel physics-inspired molecular fingerprints based on principles from spectral graph theory. We represent molecules as a complete graph in 3D space, with edge weights encoding heuristic physical interactions. Eigenvalue decomposition of the resulting graph Laplacian matrix results in a computationally efficient fixed-length chemical fingerprint that encodes 3D structure while obeying necessary physical symmetries of permutation and E(3) invariance. Spectral fingerprints differentiate between unique molecular structures with identical 2D connectivity, overcoming a limitation of 2D descriptors, while maintaining the low computational cost needed for efficient screening of vast chemical spaces. We evaluate our fingerprints with community detection algorithms and observe strong performance against representative baselines across datasets from organic, inorganic, biological, reticular, and reaction chemistry. Nearest-neighbor property estimation and applicability domain analyses reveal the utility of our molecular representation in machine learning and cheminformatics. We anticipate that spectral fingerprints will serve as generalizable, interpretable, and efficient measures of chemical similarity that incorporate 3D information at minimal cost.},
 }
 
 @article{garrison2026bostmc,
+  citelabel   = {JCIM 2026},
   abbr            = {J. Chem. Inf. Model.},
   preview         = {bostmc-dataset.png},
   bibtex_show     = {true},
@@ -18,33 +27,33 @@
   title           = {The BOS-TMC Dataset: DFT Properties of 159k Experimentally Characterized Transition Metal Complexes Spanning Multiple Charge and Spin States},
   author          = {Garrison*, Aaron G. and Toney*, Jacob W. and Nikolaeva, Tatiana and St. Michel, Roland G. and Stein, Christopher J. and Kulik, Heather J.},
   journal         = {Journal of Chemical Information and Modeling},
-  additional_info = {&nbsp;(accepted)},
   year            = {2026},
   publisher       = {American Chemical Society},
   arxiv           = {2604.07623},
-  doi             = {10.48550/arXiv.2604.07623},
-  url             = {https://doi.org/10.48550/arXiv.2604.07623},
+  doi             = {10.1021/acs.jcim.6c01792},
+  url             = {https://doi.org/10.1021/acs.jcim.6c01792},
   annotation      = {Authors contributed equally.},
   abstract        = {We present the Boston Open-Shell Transition Metal Complex (BOS-TMC) dataset, a set of density functional theory (DFT) properties for 159k experimentally characterized mononuclear transition metal complexes (TMCs) in multiple spin states with a range of formal charges derived from the Cambridge Structural Database (CSD). To curate this set, we carried out an iterative procedure to confidently assign overall TMC charge. From this information, we then obtained properties in up to three spin states, i.e., low-, intermediate-, and high-spin for 3d metals and low- and intermediate-spin for 4d and 5d metals, depending on compatibility with the metal electron configuration, for a total of 343.8k TMC/spin combinations. At odds with prior sets, we preserved experimental heavy-atom coordinates in these structures during optimization. We report all properties using PBE0/def2-TZVP single-point energies on these structures. We introduce a scheme for computing metal-spin-dependent atomization energies, which we report for each TMC. Alongside electronic energies, we report up to seven additional properties including: HOMO, LUMO, HOMO-LUMO gap, atomic partial charges, dipole moments, atomization energies, and spin-splitting energies for a total of over 2.9M TMC-associated properties. For a representative subset of over 10k complexes chosen based on size, we evaluate the sensitivity of computed properties to exchange-correlation (xc) functional choice from a set of twelve xcs spanning rungs of "Jacob's ladder", highlighting hotspots of TMC space that have the greatest uncertainty. In comparison to prior transition-metal datasets, BOS-TMC is both larger and more diverse in terms of charge and spin configurations and, as a result, more diverse in its range of properties. This dataset is expected to provide a high-fidelity foundation for machine-learning model development, DFT benchmarking, and exploration.},
 }
 
 @article{darouich2026ncs,
+  citelabel   = {Nature Comput Sci 2026},
   abbr            = {Nat. Comput. Sci.},
   preview         = {ts-generative.png},
   bibtex_show     = {true},
-  title           = {Beyond the Training Domain: Robust Generative Transition State Models for Unseen Chemistry},
+  title           = {Robust Generative Transition State Models for Unseen Chemistry},
   author          = {Darouich, Samir and Toney, Jacob W. and Luo, Weiliang and Kästner, Johannes and Niepert, Mathias and Kulik, Heather J.},
   journal         = {Nature Computational Science},
-  additional_info = {&nbsp;(accepted)},
   year            = {2026},
   publisher       = {Nature Portfolio},
   arxiv           = {2601.16469},
-  doi             = {10.48550/arXiv.2601.16469},
-  url             = {https://doi.org/10.48550/arXiv.2601.16469},
+  doi             = {10.1038/s43588-026-01034-5},
+  url             = {https://doi.org/10.1038/s43588-026-01034-5},
   abstract        = {Transition states (TSs) govern the rates and outcomes of chemical reactions, making their accurate prediction a central challenge in computational chemistry. Although recent machine-learning models achieve near chemical accuracy in the prediction of TS structures and the associated reaction barriers for small organic reactions, their ability to generalize beyond the training domain remains largely unexplored. Here, we introduce targeted benchmarks to probe chemical and structural novelty in generative TS prediction. Building on Transition1x, a large-scale dataset of reactions involving small organic molecules, we construct curated extensions incorporating controlled elemental substitutions and diverse transition-metal complexes (TMC). These benchmarks reveal fundamental limitations of generative models in the generalization to previously unseen elements. As a result, they produce unphysical geometries and large energetic errors, even for reactions structurally similar to well-predicted organic systems. To address this challenge, we introduce a self-supervised pretraining strategy based on equilibrium conformers that exposes generative TS models to novel chemical environments prior to targeted fine-tuning. Across the newly proposed benchmarks, self-supervised pretraining substantially improves TS prediction for previously unseen systems, lowering the median RMSD of TS geometries on T1x-TMC reactions from 0.39 to 0.19 Å and reducing fine-tuning data requirements by up to 75%, enabling reliable performance even in low-data regimes. Overall, the integration of generative TS models with self-supervised pseudo-reaction pretraining provides an efficient, scalable, and chemically robust framework for elucidating TSs well beyond the small organic molecule domain, establishing a foundation for investigating complex and catalytically relevant reaction landscapes.},
 }
 
 @article{toney2026elemenet,
+  citelabel   = {arXiv 2026},
   abbr        = {arXiv},
   preview     = {elemenet.png},
   bibtex_show = {true},
@@ -63,6 +72,7 @@
 }
 
 @article{terrones2026jcim,
+  citelabel   = {JCIM 2026},
   abbr        = {J. Chem. Inf. Model.},
   preview     = {molsimplify.png},
   bibtex_show = {true},
@@ -78,6 +88,7 @@
 }
 
 @article{toney2025jacs,
+  citelabel   = {JACS 2025},
   abbr        = {J. Am. Chem. Soc.},
   preview     = {jacs-hemilability.png},
   bibtex_show = {true},
@@ -97,6 +108,7 @@
 }
 
 @article{toney2025pnas,
+  citelabel   = {PNAS 2025},
   abbr        = {Proc. Natl. Acad. Sci.},
   preview     = {pnas-coordination.png},
   bibtex_show = {true},
@@ -116,6 +128,7 @@
 }
 
 @article{toney2025curropin,
+  citelabel   = {Curr Opin Chem Eng 2025},
   abbr        = {Curr. Opin. Chem. Eng.},
   preview     = {curropin-datasets.png},
   bibtex_show = {true},
@@ -132,6 +145,7 @@
 }
 
 @article{liu2025chemrxiv,
+  citelabel   = {ChemRxiv 2025},
   abbr        = {ChemRxiv},
   preview     = {tmc-llama.png},
   bibtex_show = {true},
@@ -146,6 +160,7 @@
 }
 
 @article{kevlishvili2025faraday,
+  citelabel   = {Faraday Discuss 2025},
   abbr        = {Faraday Discuss.},
   preview     = {faraday-nlp.png},
   bibtex_show = {true},
@@ -162,6 +177,7 @@
 }
 
 @article{lan2023catalysis,
+  citelabel   = {Catal Sci Technol 2023},
   abbr        = {Catal. Sci. Technol.},
   preview     = {cu-ch-hydroxylation.png},
   bibtex_show = {true},
