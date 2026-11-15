@@ -28,7 +28,7 @@ cv:
         end_date: 2027
         highlights:
           - "Thesis: *Accelerating Quantum Chemistry with Machine Learning for the Rational Design of Transition Metal Complexes*"
-          - "Coursework: computational chemistry, advanced electronic structure theory, machine learning algorithms, ML for chemistry, matrix calculus for ML, diffusion models, generative AI and stochastic differential equations, numerical methods, Bayesian modeling and inference"
+          - "Selected coursework: Electronic Structure Theory, Computational Chemistry, Machine Learning, Bayesian Modeling and Inference, Diffusion Models, Generative AI and Stochastic Differential Equations, Matrix Calculus, Numerical Methods"
 
       - institution: University of Southern California
         location: Los Angeles, CA
@@ -52,11 +52,11 @@ cv:
         location: Cambridge, MA
         start_date: 2023-01
         highlights:
-          - Developed graph neural networks to predict organometallic bonding in transition metal complexes from ligand structure (*PNAS*), and extended the approach to dynamic coordination modes using ensemble learning (*JACS*).
+          - Developed pydentate, graph neural networks to predict organometallic bonding in transition metal complexes from ligand structure (*PNAS*), and extended the approach to dynamic coordination modes using ensemble learning (*JACS*).
           - Co-led construction of BOS-TMC, the largest DFT dataset of experimentally characterized transition metal complexes in multiple charge and spin states (*JCIM*).
-          - Supported development and benchmarking of state-of-the-art generative transition state models (*Nat. Comput. Sci.*).
-          - Built ElemeNet, a unified machine learning framework for chemistry supporting E(3)-equivariant architectures with uncertainty quantification across the periodic table.
-          - Designed novel physics-based molecular fingerprints from spectral graph theory to encode 3D information while preserving permutation and E(3) invariance.
+          - Built a 36k reaction organometallic dataset to fine-tune generative transition state models, achieving state-of-the-art performance on unseen chemistry (*Nat. Comput. Sci.*).
+          - Built ElemeNet, a unified machine learning framework for chemistry supporting E(3)-equivariant architectures with uncertainty quantification across the periodic table (*JCIM*).
+          - Designed novel physics-based molecular fingerprints from spectral graph theory to encode 3D information while preserving permutation and E(3) invariance (*Chem. Sci.*).
           - Maintain the group HPC cluster and contribute to the open-source molSimplify structure generation package.
 
       - company: IBM Research
@@ -66,7 +66,8 @@ cv:
         end_date: 2026-08
         highlights:
           - Developed wavefunction embedding schemes for simulating large molecular systems on quantum computers.
-          - Investigated fine-tuning generative models for protein structure prediction.
+          - Benchmarked classical (CCSD, FCI) and quantum algorithms (SQD) on biologically relevant host-guest binding.
+          - Investigated fine-tuning generative models for antibody structure prediction.
 
       - company: SpaceX
         position: Operations Engineer
@@ -75,7 +76,7 @@ cv:
         end_date: 2022-08
         summary: Full-time
         highlights:
-          - Led cross-functional cost-reduction campaigns to optimize Falcon 9 production.
+          - Led cross-functional cost-reduction campaigns to optimize Falcon 9 production, saving over $450K annually.
 
       - company: ExxonMobil Research & Technology Development
         position: Process Engineering R&D Intern
@@ -88,104 +89,101 @@ cv:
       - company: Sharada Group, USC Department of Chemical Engineering and Materials Science
         position: Undergraduate Researcher
         location: Los Angeles, CA
-        start_date: 2019-01
+        start_date: 2018-01
         end_date: 2021-05
         highlights:
           - Performed DFT mechanistic studies of C–H hydroxylation by enzyme-inspired copper–oxygen complexes.
           - Published in *Catal. Sci. Technol.* and recognized with departmental awards for best research paper and presentation.
 
     Publications:
-      - bullet: "A full, up-to-date list — with abstracts, DOIs, and code — is on the [publications page](/publications/)."
+      - bullet: "11 peer-reviewed publications and 1 preprint (first or co-first author on 7) in venues including PNAS, JACS, and Nature Computational Science. A full, up-to-date list — with abstracts, DOIs, and code — is on the [publications page](/publications/)."
       - bullet: "Also indexed on [Google Scholar](https://scholar.google.com/citations?user=1oeDzDIAAAAJ) and [ORCID](https://orcid.org/0000-0002-6920-1105)."
 
     Honors and Awards:
-      - title: Entalpic AI for Science Fellowship
+      - title: Entalpic AI for Science Fellow
         awarder: Entalpic
-        date: 2026-04
+        date: 2026
 
       - title: Leslye Miller Fraser and Darryl M. Fraser Fellow
         awarder: MIT School of Engineering
-        date: 2025-05
+        date: 2025
 
       - title: MathWorks Engineering Fellow
         awarder: MIT Department of Chemical Engineering
-        date: 2024-06
+        date: 2024
 
-      - title: Alfred P. Sloan UCEM Fellowship
+      - title: Alfred P. Sloan UCEM Fellow
         awarder: MIT School of Engineering
-        date: 2022-09
+        date: 2022
 
-      - title: Albert Dorman Valedictorian
-        awarder: USC Viterbi School of Engineering
-        date: 2021-05
+      - title: Valedictorian
+        awarder: USC School of Engineering
+        date: 2021
+
+      - title: University Trustees Award (perfect GPA)
+        awarder: USC
+        date: 2021
 
       - title: National Academy of Engineering Grand Challenges Scholar
-        awarder: USC Viterbi School of Engineering
-        date: 2021-05
-
-      - title: University Trustees Award
-        awarder: USC — awarded for perfect GPA
-        date: 2021-05
-
-      - title: "Best Research Paper — *Bioinspired Catalysis of C–H Hydroxylation: A Computational Approach*"
-        awarder: USC Viterbi School of Engineering
-        date: 2021-05
+        awarder: USC School of Engineering
+        date: 2021
 
       - title: "Best Analytical & Expository Essay — *Engineering Ethics: Grand Challenges and Grander Responsibilities*"
-        awarder: USC Viterbi School of Engineering
-        date: 2021-05
+        awarder: USC School of Engineering
+        date: 2021
 
       - title: Outstanding Chemical Engineering Student Award
-        awarder: USC Department of Chemical Engineering and Materials Science
-        date: 2021-05
+        awarder: USC Department of Chemical Engineering
+        date: 2021
 
-      - title: "Best Research Presentation — *Investigating the Mechanisms of C–H Activation with Enzyme-Inspired Molecular Catalysts*"
-        awarder: USC Department of Chemical Engineering and Materials Science
-        date: 2021-02
+      - title: Best Research Paper and Best Research Presentation
+        awarder: USC Department of Chemical Engineering
+        date: 2021
 
       - title: Provost's Undergraduate Research Fellowship
         awarder: USC (January 2019 – December 2020)
-        date: 2019-01
+        date: 2019
 
       - title: Presidential Scholar
         awarder: USC
-        date: 2017-08
+        date: 2017
 
       - title: Latino Alumni Association Scholar
         awarder: USC
-        date: 2017-08
+        date: 2017
 
     Presentations:
+      - bullet: "**Telluride Science & Innovation Center Workshop**, Telluride, CO — *Exploring structural, electronic, and chemical properties of transition metal complexes with deep learning and quantum chemistry*, talk in *Machine Learning and Informatics for Chemistry and Materials*. September 2026."
       - bullet: "**International Conference on Quantum Chemistry**, Berkeley, CA — *Machine Learning Prediction of Structural and Electronic Properties of Transition Metal Complexes*, poster. June 2026."
-      - bullet: "**Entalpic LeMaterial Reading Group**, virtual — *Exploring Structure, Properties, and Reactivity in Transition Metal Complexes with Deep Learning and Quantum Chemistry*, invited talk. February 2026."
-      - bullet: "**AIChE Annual Meeting**, Boston, MA — *Graph neural networks for predicting metal–ligand coordination in transition metal complexes*, talk in *Data Science and ML Approaches to Catalysis: Catalyst Design and Discovery*. November 2025."
-      - bullet: "**WATOC**, Oslo, Norway — *Graph neural networks for predicting metal–ligand coordination in transition metal complexes*, talk in *Chemical Structure and Reactivity: Analysis*. June 2025."
-      - bullet: "**CECAM Frontiers of Computational Reaction Prediction**, Chicago, IL — *Graph neural networks for predicting metal–ligand coordination in transition metal complexes*, poster. July 2024."
-      - bullet: "**USC ChE & Materials Science Research Symposium**, Los Angeles, CA (virtual) — *Investigating the Mechanisms of C–H Activation with Enzyme-Inspired Molecular Catalysts*, recorded talk. February 2021. **Awarded Best Research Presentation.**"
+      - bullet: "**LeMaterial Reading Group**, virtual — *Exploring Structure, Properties, and Reactivity in Transition Metal Complexes with Deep Learning and Quantum Chemistry*, **invited talk**. February 2026."
+      - bullet: "**American Institute of Chemical Engineers (AIChE)**, Boston, MA — *Graph Neural Networks for Predicting Metal–Ligand Coordination in Transition Metal Complexes*, talk in *Data Science and ML Approaches to Catalysis*. November 2025."
+      - bullet: "**World Association of Theoretical and Computational Chemists (WATOC)**, Oslo, Norway — *Graph Neural Networks for Predicting Metal–Ligand Coordination in Transition Metal Complexes*, talk in *Chemical Structure and Reactivity*. June 2025."
+      - bullet: "**CECAM Frontiers of Computational Reaction Prediction**, Chicago, IL — *Graph Neural Networks for Predicting Metal–Ligand Coordination in Transition Metal Complexes*, poster. July 2024."
+      - bullet: "**USC ChE & Materials Science Research Symposium**, Los Angeles, CA — *Investigating the Mechanisms of C–H Activation with Enzyme-Inspired Molecular Catalysts*, recorded talk. February 2021. **Awarded Best Research Presentation.**"
       - bullet: "**AIChE Annual Student Conference**, San Francisco, CA (virtual) — *Computational Analysis of C–H Hydroxylation in Bio-inspired Monometallic Complexes*, poster. November 2020."
       - bullet: "**USC ChE & Materials Science Research Symposium**, Los Angeles, CA — *Computational Analysis of C–H Hydroxylation in Bio-inspired Monometallic Complexes*, poster. March 2020."
       - bullet: "**AIChE Annual Student Conference**, Orlando, FL — *Computational Analysis of C–H Hydroxylation in Bio-inspired Monometallic Complexes*, poster. November 2019."
 
     Teaching:
-      - bullet: "**5.698/10.637: Computational Chemistry** (MIT) — Grader, graduate elective in chemical engineering and chemistry. Sep–Dec 2025."
-      - bullet: "**10.34: Numerical Methods Applied to Chemical Engineering** (MIT) — Graduate Teaching Fellow, graduate core course. Sep–Dec 2024. Instructor rating 6.5/7."
-      - bullet: "**10.65: Chemical Reactor Engineering** (MIT) — Grader, graduate core course. Feb–May 2024."
-      - bullet: "**10.40: Chemical Engineering Thermodynamics** (MIT) — Grader, graduate core course. Sep–Dec 2023."
+      - bullet: "**5.698/10.637 Computational Chemistry** (MIT) — Grader, graduate elective. Fall 2025."
+      - bullet: "**10.34 Numerical Methods** (MIT) — Graduate Teaching Fellow, graduate core. Fall 2024. Instructor rating 6.5/7."
+      - bullet: "**10.65 Chemical Reactor Engineering** (MIT) — Grader, graduate core. Spring 2024."
+      - bullet: "**10.40 Chemical Engineering Thermodynamics** (MIT) — Grader, graduate core. Fall 2023."
 
     Mentorship and Service:
       - bullet: "**David Sauer** (Chemistry, Harvard University) — reparameterization of electronic structure methods for transition metal complexes."
       - bullet: "**Zheming Zhang** (Chemical Engineering, MIT) — benchmarking deep learning architectures for electronic property prediction in variable charge and spin states."
-      - bullet: "**Lauren Wright** (Chemical Engineering, Louisiana State University) — designing new hydroformylation catalysts through mechanistic study and data science. Presented at the AIChE Annual Student Conference 2025; **Awarded Third Place Poster.**"
-      - bullet: "**Sebastian Pujet** (Chemical Engineering and Computer Science, Washington University in St. Louis) — active learning to optimize mechanochemical properties of transition metal complexes. Contributed to *molSimplify 2.0*, J. Chem. Inf. Model. 2026."
+      - bullet: "**Lauren Wright** (Chemical Engineering, Louisiana State University) — designing new hydroformylation catalysts through mechanistic study and data science. Presented at AIChE Annual Student Conference, Boston, MA, November 2025; **Awarded Third Place Poster.**"
+      - bullet: "**Sebastian Pujet** (Chemical Engineering, Washington University in St. Louis) — optimizing mechanochemical properties of transition metal complexes with active learning. Contributed to *molSimplify 2.0* publication (*JCIM* 2026)."
       - bullet: "**President**, USC AIChE Student Chapter. April 2020 – May 2021."
       - bullet: "**President**, USC Latino Alumni Association Scholar Committee. January 2019 – May 2021."
 
     Skills:
-      - name: Machine learning
-        keywords: "geometric deep learning (GNNs, E3NN), generative models (diffusion, flow-based), uncertainty quantification, active learning, Bayesian modeling and inference"
+      - name: Machine Learning
+        keywords: "geometric deep learning (GNNs, EGNNs, transformers), generative models (diffusion, flow-based), uncertainty quantification, active learning, Bayesian modeling and inference"
 
-      - name: Quantum chemistry
-        keywords: "density functional theory (TeraChem, ORCA, Psi4, PySCF), post-Hartree–Fock methods, transition-state search, quantum computing and quantum algorithms"
+      - name: Quantum Chemistry
+        keywords: "density functional theory (TeraChem, ORCA, Psi4, PySCF), post-Hartree–Fock methods, transition-state search, quantum computing and quantum algorithms, cheminformatics"
 
-      - name: Scientific computing
+      - name: Scientific Computing
         keywords: "Python, PyTorch, PyTorch Geometric, HPC cluster administration, multi-GPU training"
